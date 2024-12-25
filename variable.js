@@ -6,10 +6,13 @@ let isJsFun = true;
 let fruits = "grapes";
 let year = 2000;
 const ageJonas = 2025 - 2004;
+const now=2000;
+const diff =now-1000;
+const diff2 = now-500;
 
-` text : ${text}`
+
 console.log(`
-    Text: ${text}
+  this ${fruits} is  Text: ${text}
     First: ${firstName}
     PI: ${PI}
     Last: ${lastName}
@@ -19,4 +22,6 @@ console.log(`
     Fruits: ${fruits}
     Year: ${year}
     Age Difference: ${ageJonas}
+    diff:${diff}
+    differnse2:${diff2}
 `);
