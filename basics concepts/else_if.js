@@ -5,6 +5,6 @@ let age=15;
  }
      else
      {
-        const yearsleft=18-age;
+        const yearsleft = 18-age;
         console.log(`you are ${yearsleft} years to left for driving`);   
   }
