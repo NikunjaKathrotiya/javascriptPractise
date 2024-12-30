@@ -23,6 +23,7 @@ function cutfruits(fruits)
 {
    return fruits *4;
 }
+
 function totalfruits(apple,orange){
 const applePiecses = cutfruits(apple);
 const orangePieces = cutfruits(orange);
